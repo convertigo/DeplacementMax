@@ -145,6 +145,25 @@ tplProjectName: mobilebuilder_tpl_7_8_0
          "Property": "plain:latlng",
          "Value": "script:null"
         }'
+    ↓ModalPage [mobile.components.UIDynamicAction-1588950756228]: 
+      beanData: |
+        '{
+         "ionBean": "ModalAction",
+         "page": "plain:DeplacementMax.MobileApplication.Application.MonAdresse",
+         "blockWhileDisplayed": "plain:true"
+        }'
+      ↓PostData [mobile.components.UIDynamicAction-1589020805329]: 
+        beanData: |
+          '{
+           "ionBean": "FullSyncPostAction",
+           "requestable": "plain:DeplacementMax.deplacementmax_fullsync",
+           "_id": "plain:_local\/latlng"
+          }'
+        ↓latlng [mobile.components.UIControlVariable-1589020863392]: 
+          varValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+              - MobileSmartSourceType: source:{"filter":"Global","project":"DeplacementMax","input":"router.sharedObject?.latlng"}
   ↓GetData [mobile.components.UIDynamicAction-1589021038984]: 
     beanData: |
       '{
@@ -152,7 +171,6 @@ tplProjectName: mobilebuilder_tpl_7_8_0
        "requestable": "plain:DeplacementMax.deplacementmax_fullsync",
        "_id": "plain:_local\/latlng"
       }'
-    isEnabled: false
     ↓SetGlobal [mobile.components.UIDynamicAction-1589021059768]: 
       beanData: |
         '{
