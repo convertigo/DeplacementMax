@@ -1,0 +1,32 @@
+baseDir: /maps/api/geocode/json
+https: true
+port: 443
+server: maps.googleapis.com
+↓Default_transaction [transactions.HttpTransaction]: 
+  ↑default: true
+↓GeoCode [transactions.JsonHttpTransaction]: 
+  ↓OK [core.TestCase]: 
+    ↓address [variables.TestCaseVariable-1589010315046]: 
+      value: 115 avenue du Maine PAris
+  ↓address [variables.RequestableHttpVariable-1589010286360]: 
+    httpName: address
+  ↓key [variables.RequestableHttpVariable-1589010286363]: 
+    httpName: key
+    value: 
+      - ↑ciphered: true
+      - ↑traceable: false
+      - →→: xeb89aa4ff7d793c86d6e1c369ce9f4cd11e00cde3fd75c5eed3bd7e70bfcdf1e7ebac6759da7ebf16b9b166cbe0615da
+    visibility: '-1'
+↓ReverseGeoCode [transactions.JsonHttpTransaction]: 
+  ↓OK [core.TestCase]: 
+    ↓latlng [variables.TestCaseVariable-1589006677050]: 
+      value: 40.714224,-73.961452
+  ↓latlng [variables.RequestableHttpVariable-1589006633397]: 
+    httpName: latlng
+  ↓key [variables.RequestableHttpVariable-1589006658916]: 
+    httpName: key
+    value: 
+      - ↑ciphered: true
+      - ↑traceable: false
+      - →→: xeb89aa4ff7d793c86d6e1c369ce9f4cd11e00cde3fd75c5eed3bd7e70bfcdf1e7ebac6759da7ebf16b9b166cbe0615da
+    visibility: '-1'

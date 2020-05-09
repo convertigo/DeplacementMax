@@ -1,0 +1,234 @@
+inAutoMenu: false
+segment: path-to-monadresse
+title: Title for MonAdresse
+↓Content [mobile.components.UIDynamicElement-1588950797892]: 
+  beanData: '{"ionBean":"Content","IonPadding":"plain"}'
+  tagName: ion-content
+  ↓Grid [mobile.components.UIDynamicElement-1588950852284]: 
+    beanData: '{"ionBean":"Grid","Height":"plain:height:100%"}'
+    tagName: ion-grid
+    ↓GridRow [mobile.components.UIDynamicElement-1588950857852]: 
+      beanData: '{"ionBean":"GridRow","Height":"plain:height:100%"}'
+      tagName: ion-row
+      ↓GridCol [mobile.components.UIDynamicElement-1588950862244]: 
+        beanData: '{"ionBean":"GridCol","AlignItemsCenter":"plain:align-self-center"}'
+        tagName: ion-col
+        ↓CardContainer [mobile.components.UIDynamicElement-1588950917996]: 
+          beanData: '{"ionBean":"Card"}'
+          tagName: ion-card
+          ↓Image [mobile.components.UIDynamicElement-1588950947156]: 
+            beanData: '{"ionBean":"Image","url":"script:''data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAkGBxMTEhUTExMWExUXGRgYFhcYGBkYFxgaGBgYGRgYGBoZHSggGBolGxcXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0lICUrLS0tLy8tNSstLS0tLS0tLTUtLy0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf\/AABEIALYBFQMBIgACEQEDEQH\/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBB\/\/EAD4QAAIBAwMCBAQEBAQFBAMAAAECEQADIQQSMQVBBiJRYRNxgZEyQqGxFFLB0Qcj4fAWYoKS8RUzQ3KDosL\/xAAaAQACAwEBAAAAAAAAAAAAAAABAgADBAUG\/8QALxEAAgIBAwIEBgICAwEAAAAAAQIAEQMEITESQQUTIlEyYXGBkaEUsVLRQ8HwFf\/aAAwDAQACEQMRAD8A9tmkRUaPT5oyRjrQd9oo4tUF6zIplMUzParqqC4qkgA4z7+hP7VQ+POgLsOoUEtjdycevtWnboiOy3Lw\/CfKk+WZwx96O12lW7ba0w8rAg1tx5xidSv3mXLgOVGVvtPBSK5FaDxT4bbSMPNuRvwnv9RVEK9ImRXXqXieadGxt0tzGRXIqRq6uDTRLkW2kBVhq76siBQBtGcRk+lD\/wAO23fHl9aW\/eN9IyxYZyQomASfYDk5qJhVvo\/8pCzSpcAAEcrOfmKqrkSY47UFNmEihGRSinRXQKaLcbFKKfFcipJcaBSinV2pBcZXYrsV2KNyXGxUllJYDiSBPpJiubaelskwASfQZqHiQHee3dJsW7VtLNuCEUD5+p+8\/erZBisd\/h\/ons2SbqsHcyAx4WBAjt3Nau7qK8jnWnIBv5z12Brxg1Xyiu381GHNQFpoixbmqjQlkfbqZbOaeixTxS3GipTTGam7qEklmmFqYWqM3KMknBpVB8WuUakglrUUSt6qXfT01FWlJX1S63Vy7d2ieaAtar1otbgNIVqNchvawloVSfXHFOhicD+1Ehq6LgqdUlTzv\/EHS6hiD8PdaXJYZg8Qe9Q6Hwpcu6RSpXO4iRyMkD1BmvS5B9\/amF1QdgPQe9bF1zqgRRxMTaFGyM7HkTwG9aKkhgQRyCINNt2yxAHJxWg8ZdROo1LQBCSqwIJA9fUzR3hLw6bitedQR+RT3GZMV3Tn6cQd9pwRg68pRN\/nMk9qDB7GrBOohV2ZZBwOP6fpQ\/Uf\/ccREMRB5EdqFirqDizKbKnaFdQ1zXSCx4wB2A9BQbU6K5FMFA4gJJNmcFSfCMboO3iYx96l0Wje64S2u5jwP\/Ne0eHujJYsKkZiWn1PNZNXrFwV3M16TSNqCew954lbtliFAJJMADkn2prqQSDgjBHyr3g9OtBt+xd3rAmvOvF\/hO6t74lsBluGYELtb057\/vNU6fxFMr9JFS7UeHNiTqBuYuuRU160VYqwKsMEHkGmRXS5E5vBoxsV0Cu1daDw1fu21uIsqz7R8u7H0A\/vSO6oLY1GRGc0ouAaLp127Pw7bPt\/FtExJgV6r4S8JpplW443XiMk8JPIX9pq38P9LXTWFtKBj8TRBY9yaK1V+BXntVr2zehdh\/c9DpPD1xeptz\/UA15Aae9Bm\/NN1d6TUdgSayAbTb3ljpjVlZobSoAPeibeMnmqzLAJOKZcuUPf1UVWajX+9ALchNSybUCoG1gFUd7X1AdSTVoxxOuXlzX0wXyaqVvVOt4mj0VB1XDjdpUKk0qFSXBQxqRVJrttO1WC6UhcZFWE1ABK9ZoiwzA0XpivoBVgm2IgUjPCFkNm+CO1cdxXH0Q5BoLWaZ1G4Eke3b6UqqCeYxJEfev7QSO3Yc1jeq+KvjB7IUgk+VhiCD3+1D+JesydqMQwOSD6TxUnhhdPdncn+YpB3GJJ9ff5e9dTFphjTzHFzlZ9ScmTysbAe8D6D4dLN8S9+Dn1k+\/p61pNJe2KXtsCowox+p9Kf1Gy11HS2dhXkgYP0GRWTTrbWQbJtrAOYJ+eKs9eo\/1EvHpaHY9\/nKjrbk3nLczmgKK1183LjOfzGf7UPFdZBSgTiO1sTGRXYrsV2KaLcvvDHV7emlyk3CYmJhfb3r0TQdWbU2y9qNoMMczMAwB9a8fFesf4eyujQEASzEe4nn\/fpXI8SxKq+Z3udnwvO7N5fapeaVAokkz71W+I9Tc2D4Vv4jAzwDEe39q0cCOJqNrAJmBXEV+lrqdxl6lq54b1zRXbd5lvZfDEgzIIkc5quivdW6HY+Mb5QNcK7STJEccHHGK8x6z0r4euaxtCpdZdsZhWbtPoZMe1d\/SeILk9JHAnndXoGxeq+TM5Y07OYUScn7c16\/4I0Zt6RATIMssmcHP0+VUo8CIQttWMBtz3CfNH8qiImtZ03RmzbW3vZwuAWgGOwwAMDFY9fq0yqFUzd4fo3wuWYSa7dPFCalCRM0aVjJqC7n2FcsGdYypGmLGi7dgLUjOOBmo9Td8o9afcxdpY2oiodRfCjmqbUdRZRiKpdT1JmoriJgbIBLbXdQ96qbus96rrl5jTQprQuMCZ2yEw74007eah01qeBVzoem7jmajECEAmBWlM+tW+k0zdxVla6YFggAVL\/wClLnz3JOcN\/piqTkBloQiCi170qs7ejAESfqST9zSqrrj9MDXSqxzg\/vRiaUKCAcGnKVqX4lKSY1Sn1On21DY1UYire9dWoLNoEyACBThtt4K9pDa1EmKdqGZlKjv3FGHTCZFIW\/vU6hdyV7zyLxD0V7VwyZk+kHP6GqbaR6j9K9f690z4iYJBHBHIrzXqHS7gdsM8cmDInicV39HqxkSmnmtfozibqS6M1XgTpd0j4lzcFPEkyY9j2qz8QeCU1B+Ij\/DeIiBtPzjM+9D+G\/EafDVCYZQBDc\/61fL1ha5ebLnXMWG06+DFgfAEO4mB\/wCAr4fazKBiHH4T7es1SdR6BetMysBCgmQcECvUOpdQVrZBgdwZiCOCTXlOt1ru5LNJ4PpXS0WfPlPq7Tl67Bp8AAUGz84BFKKfFKK6k5FxoFepeCLiizZtjkjcZ9yT9q8virnwz1JrV5fMY4H2wPlWLXYTlx7dpv8AD84xZd++09qFdms7pOvA8nNFnqq+teZKMDU9UHBlrurIePNC91VZCqfDl9xxkerdsEx7irlNeW\/Dms7\/AIgh\/gBRMTuaPQYz9xV+lUjKJn1ZHktcqvDfinUGV+E16Nv4BwOCT6nitvd1FzaCV2yODyPnWZ\/w1UfBuZYEv6eXAjB71ode7CZI9p7\/AOtXasKcxVRVSnRFvJDM13G2HZzk4p3UNSlseZo9BIz96D0\/V0VSTAPEH17CsB4s6g17UMSZCgBQOB3P1mpptKcr0dhJq9YuBOobmbW31I6h2saeVgZuFZVYicg5JonV22Q7SN3uKpP8PNaio4ZvMG8o7QwE\/MyK3BvofSl1A8rIUA2EfSP5uMZCdzMXqXPpQNy4BWr6hbk4ArP9R047wKCMDHdSJVNfqawZyaHgTioNR1BVlRz69q1LiZ9gJkyZlxi2M0ekuKKudN1IV57p+qQPMST8sVZ2PEiKBCEn7Co+hye1xcfiWGrJqeg2dbu7UQt8etefWvFxzK7f1q36Zc1OpXcgCIcbm7\/IDmsuTRum7bCaseuxZNkNmaTU9VtJAZgJ9TXKi0PTWRAvxNx7sVmSfrSrOVQTTbQK1qmBo9LpYcihLmnX2+hoqwEUVGoxhcjawZmZFGabavGKjGoX0p4uqaU3DDdwqG5fig7ttzw0elBMbynifkagWS5bMwaM1zTacJu8xMmcxj2wOKr7eubuCKnu6xAOSTUo8QGuTAb\/AEPSjJtpAnPcCZ5rK+IOjG0hvae9\/l8lQ2B8iTn5Vf6rUFwwXGPXJ\/tWN6lotQVG4YUGRPv6d66ekDFt2+xnK1xUIQqfjaU76u40guYPInB+dSL0u8U+ILTlP5gpj5\/L3qXpi2viD4ysy+i8k+nyr1Lp7ubai3aZFwAHwY9Y9hW\/U6ryK6VnL0ek\/lWWb\/c8n0XTbt4kWrbORztHHzP0qHUaV0O11ZD6MCD+tez6XRLZ3bI8x3HAyf8AYqo634fTVsGYsrCBjiAc81nTxS39Q9P7mnJ4OQnpNt+p5XtrqqZxMj7it7rOh2NKpubdxXI3SZIyPlJqk6HcLajdyWJ3ntB7R7mPtWsasOpZRsJibRNjdUY7mXPT9BvVSxNoxkHJjtM96f8A+ntvhSWHY8VcJbVmAOfvmnazT2wMMywZhTH0PtXFbJbT0i4+lY7p7fDH4TMcmqrq3i22IUgOJhhyYIz7e0UF4g6y6KFVoPf1issujLk7cj1JHetWm0at68k52s17IfLxczRXvFKWVCWFBESOwE5g+prP6\/rV+6ZZzzgDEfKKT9LcYJUGYgmD+tdHR7uRtyDEevuPUV0MePAm+1\/OczLn1WTbcD2EDbVOQAWJioYo+90y6k7kIj1+1Dba1KVPwzDkLg+qNsXGUgqYIM1ptP4mjkfOaze2ltqvLgTL8QluDWZMPwmaPVeKT+UfY1Vanqzt\/wCZ\/pQO2nBKVNJiTgR8niOd+Wjjqn\/mqECphbp62DVwCrxMrZHfneQBacFqx0fTmcwPrWm6N0PThT8Y7m7CYH6c1Tm1SYx7zRg0WXMdtvrAfDXhb4oF26QLZ4WfMw9ccCt\/pdiqFEKowB2EVTIPKFtg7QIAHoMU2xe7HFcHUZHzNbGep0mnTTrSjfufeaH+JUd6VVtgrGTSrJ0CbOqCXbkLIEnuImq5urgdv0onSa9bo4ZD23QOCR6+1WC2AWz8LgEyAD9uadXSJueJUWuoyedvzo2x1FfY+tE6np\/pbWfUD+\/FA6joKEcsj+qjHy9Ka0MnqEtbWvQ4mpreoX1rNnw5dXi5u\/Q\/auDQXRj4mfTH9TQKL2MPW3cTVkI3YGodVorTAyon1Bg\/QisuGvAwbij\/AKs\/pU1jWbTJYsR7TRGJhwYDkU8y1TTi3IABHb1+Rqq6zccQ84UglRAmp7+tdl3BTHEwQJ9eM0Je6PdIyGM\/r9+PrV2IANbGU5SStKIWNFprrLdKqj4II7HtPaaNudUKGG8w7EVmF6dctuouhkScmJge3Impr3TgTuGoBHaZ3fanbErHdrEpTKyiwtHv2miTrts4OKJtdWt8AyfasK+lIJAbd6R3n+tWvSbbWLo+LbJn8JPY+oPFK+lQCwYU1bE0RL\/Xab+IHDKIIjbE\/U9qr+i9HW2mz4cOJ3NiefX+laVWI570zVDH71mGVgvSOJrOFS3WeYxNKm3aQPmOfvVPq\/DIa5u+KwU\/iHf2g9qLGrUH8QqY6xe9BWdTYhZEcUYF\/wAO2ZEhngfmMz86kPh7TiD8IAjiB+9WFi+PWpvij51POye5g8nH7CUi9CtqS6JJmQD6+3pUdy+ViUCL+bORjtH1q8GoHz+VRXEL9vL+afSiMpPxbyHEAPTtMV4muoyhEz3nn7TWZ\/g63fWulLg2kOZkjI\/0qo03SHdiqrkZM4\/euxptQi4+ZwtbpGyZbIma\/hK6NJV\/e6eymGEGpbXSHOQpj15z9K0\/ylAu5iHh5Jqpnl0dSLpK1Nnw45BJZV\/3+ld6d0u0ZN1oHaDB+dUtrVrY3L18Na9xM0ulqVdPWobpFpgRaLO898CPSidD0kWsuiufvHyqptctX3mhPDjdTNaPQs7BUEn7VdJ4buBd5cBhkL\/czWgs3FUQtvb8hApt\/VgfjIjvJAH3rFk1mRj6ROjj0SIPUZm7fUXXjHyqa1fcgsVBHvipdX4r0SYNxXbgC2N5P\/aI\/WgL\/ixG4sMQOC5Rf0G4\/pStnVRbLUIXfZ7hI1jH8s0qF0\/iMkeRLaj3c\/fgV2sh8R04MsGJz3mbsvqeBLxkMs9uRuPvnIqTT65xG5dp4kgg+\/eOJzT9FqoUfCulgPxKJBkggSO3yofWdeS0QHZzOICCW7xJxHvXnE1mRj0hQT+I+wHMuk8SXBti4cYM9hmAc885p1jq+oVpDlh\/Kxn5RP8AvNYButkkmzZW0ZmTMkk8+bH\/AIrh69dgZaVaSVMg\/Pt\/viuirNV8feV+fPULPiFySHQYGYbzYHoRApXOpWjlrLe7fEGK8xu+I7xAXeTP3J4wP6V1+oagEO8COAwGffbMmrVz5B3h80N2ueg2NfY3+Yuq+sA\/Lg1c2upaPLKVaRB3Tx9flXn\/AErxYwxctgoO6JtjvG1iJHPei7PiXT3GO5LiNE\/gYk\/ILIJ59\/tSvrs17i4yBAJ6VY6jaYAK6fIMPpRZvema8lPiHTkybTQTglNqgcT5jk\/Q0\/UdatKHW3lxkKvljtkr2orqch5SWeaoHM9QYz+IwPQ9\/nVJ1TS2yRtCqJ8xEz9u9ecXPEl8AEuFn+ZnJn2UtPNHafxVdKQBcuOMEKFI9pO3GfU1sXO2P1UZS2RMgqbzp1lBBVRuHBPJ+5q0N1+ME+nevOP+KrqTvsv7SswMZ8hgfek3i9v\/AI3VJ5wwb6\/i\/ao2oVjvcKuqip6CuquyZSRMc1Wa++7GCCB6SYP6CsXc17XCu66XLcKrsT84AG2PpT16o9ri46nP4yWGO2ZWlXVIDxIzEjYzQroHOd20ewqezpmOAxPbn+1UFy5qb6EC8BPYEBY\/6I9sVTaTocZZj7gEjI54zWvHq8LjneZnLqdgZ6Zp9Nt\/GDc9gTj+9N1HUrNsjcFt+zuAfoCaxtlDb\/C1wH3dv700afd5iMdye\/FVllu5aMxrYTap4gsHyi7bBn+ZB+5qS5qLzSFKFT3GcfQ1gtR0tCZae0Dt9hXNPpdyeS0QJwYKz9DAI981Vk1GDGLJ\/MZcmRjx+J6IGKgKWn6RUb6dm\/CYHqcYrE3+n3yI+IxntvIH1P8ApTdRbv2bZJLlcDaLjPn3ByayHxXTDZWsy7pc8iaPrPWdMilGVmYTAQbjPuwx9zQfSvFYRT\/lPHYHbPzwTWZtI7OFDCTkKwgevNNudE1TZAUAYBF2ePSBFVv4pa0KA+cQY26uoS61\/ie45\/BA78t\/ahU62xmFH\/aYyMd6pNQt9Cd9tiMgsVkRxx6e9FaN7zKQLT3P5V2iPofyjjmqjr8oGzf1J5dncS3tdevWzhQw74ZePuKlbxJqG\/8AbKCcSVdoxPYiqq30DU3c3Ft2xiNx3N91x+tWVrw0v\/yXbjzyFhAfmRn9aoyeLjF8T3+464GquJBqeoa5wZ1aW177LeR9T\/eqttNZeHv37l4RMsSfbAHGferq\/wCGzj4d5lUcIQGWO0wATHuaiHhu6YJvK5BkTbhR9Ac\/eq28cLihkAv2FH+oy6Rbsi\/qZHb09hMoIAyQNo+hxk019TYMYBAmYyD7YiTxz61anw3vUreuMwx+D\/LX17GSfrTl8KaYf\/GT\/wDkf9g3NYX1aE27MTNQx1sombv9dVXZQu0CMDjI9O1KtY\/h3S8mypJ7mT+5pVoXUaeu8nlP7ieF9O8QahGwx2zJA4x3g0afFLGSy7pEDC8cETHHtWw6H4f0tgnYRcJG0i5tcczhWGDjn511fBmkknY+ZMbjAzOI45qx9fpLsg\/iZemYcdbLttA2g+oxx2jira1G3e5FsD+UyT9mx9a1Wk8N6VN2y2AWEGZOMSBMwI7Chr\/g7TEQJHyZufq2KT\/6ODhbH2i+XMr1HqoWChAA4IIIx8u+f1pqdRVzJMMcncSd3Pc8VeXP8PbH81z6Mv8AVP61Fc8DWt0i9eWeMWyP0FXJq9MBs0hx3Ky\/IVQu5ngnOVyOAOMDvQly+QwXeWbJYgCBHYTx2Ez3rT6Lw29rC6gbeDvt5Ans0iOa6fCoPm+IjsYywY4HEwRI9jTDX4Ryf1FOKQdF0V17WouJuYIoY7pCxyQuc4Bn5ihf4tSSNh9TBNtmE8gDn5Qa3nQR8JLlq7tNlkgIBgSM9pg\/Xn74zqnh28r\/AOWTdWZDAwRPaCZESc99tMNXiYAqw\/MZ8VAVH6XSm6TD234hXjdJ7ZBBPOfacUbb0WsVQPhFR2MKABxgDH7isjrNO9th8Q3AwMiBtz8yDPHNX9jxYbagPc38RlpHODETTvny16KaIMS99pI3T9U0NsvAwDuJUkc9iVjtiPpUi6HUvhg0T+J1P\/8AY4Ht69qttJ4l07o6XmWGGXE7gAMbcYbOMjirPQ+INNbSbVxAoIBDKdx4EiW8kf0pRq8tepa+0ddMp7yHo2jtIQZKPgEo7LvkgnyCR6Y703U3gLo2qGVvymVbuJAjbH2+lEp4zthQE2ATxAHJnEkCqbqnjYMpRVcNLndMxJwP0+VZgxf1UT9Zd5aAS7J3jcjeVYUgqVKkwApkwvI\/7hUun6XedS2QwKgcCVgk5Az+XPvjis1oPFTrtc\/FZQG\/MFQjABJZds5OPtVxpvFdx7dm4xNpHeIlWcqQTIx+D8Pvn2q7HiI9RuMExnmS2NDqAcK1wSf\/AHNoIzwuBjHvRj23gym2OCzCJiDAEkgf0okLbktvuMqLuJgERIMCeCfWB3qLU9QsCVGzdbHnRnXeFiYWOOQQf71bkGXpPSYf4yXI9J08Fg58zAyG7CP5exPzou40cZMxA9feOPtUF9SbJt6ZmduQrMTE89pOZ54oTTdKZUe5cBtu2CVYZIYbRk8EwDXIfR5Xb1NYl64iuwEubQBwCGYcxz61VanT3LxJW4PhRAAkOG5mZB5iccEUvDdi5sZrqC3dZcOckyMls8gcjFQ6hVS4fOw2gboQlGEZ5aTgDiaCaBkNj87QlGYcQP8A9E\/CoLkx3BAaD+Xy+k9\/SODVpo\/DYC+W6WnzBgBHsTjzHvOKB0mrQC4134nk2lN5M7iSqhVDRMgf93apbPVDtJu2nSYKAORAg5mcLxgH1qzLp8nTS3+oowfKXaabaFBfPAOZYiT3MTzU1qyFEDcYxkzWROqv32CJaLbSY3gbJCmSNxJMrIn3qG916\/ZbZcUo+4DMbDukgz3EDMxH0rC\/h+evTZ+sB9J4m2MAz+mSPsKa1zM4I9OI+9eS3\/Heq3MwhRJAG0HEnbE1caH\/ABFBT\/Ns+afymF2wOZmDNF\/CtUqcAj2uL5y9xU9Ca8PSPr\/rUttxHbH6\/pWE0f8AiBZcEsrIdyhVEGQZkk9uB96Ptdf4uIRdFxRsTzAqdzCSYIkkRHy9ai+G6jGOrpEfrBGxmsZ5IOAO\/OP0zUyXFA5P2rJ2Ov8AwrJfUwpUK2MswdioKj8wkEY9qH13jeyv4RI\/mYx+nz96X+NqQ19AkOQCbC8Lb8qHjiVH9aVYC94+YHNsEdsT+3sRSrYNPm\/x\/wDfmTzhLS5pbRktZBJjC4J7nmP3qM6OyPwtdt88MW9M5nFPvau6i5XtBIMx6T7021rC20mYZSeBHr3rmgZAL7fWZ9pKjKMfGLdjIn6mBj50QFE5ZT9Iqsua63PmUsTGQT3HpjGPala1FlisTgEzwYj6TPrQbCSL3kBEsjaBwCp\/6q5\/DfOhEe3BIJAOdzZwPb5U0rI8pk+pxgkYjtn7TSeWfeNtCW059f0+uDTHsn+UH\/X5\/wC80zK8XIyceuYiB6Tz70jeYRDA+5+\/pjFGm7GChI202MAr8jH7RUb2yB+Jh9j\/AENEHVuT+H27ffB4qLVagMjKRIII8uTx2nHFWL1ki4KEzY8VIbvwpLCY3EAr88EYrnUtZZJKHTIxHcqoz8uTUnR\/DmlXUKWS+wUhoYDbgYzgmD+1D9U6AbjswYiSTgZie2YHyrsVpwQVNRCDVwfSWbF4EWba22AG8MzFDn8okFTj3A9Kj1XRxbkvsMjChyPmYzIqfT+GgFhLzCckEfXIkVJf6AWVYvjE5OQfYZwBTHOvVs+30kqRdJ6ULZ+K4DKA0ZUqDEZPB\/pNH9TbR7RdtqHAVQwIAM5HAJEfeh7vQLvwti3jEiQOD8sTQp8OXhbNv4g2lgSM9pH1p01K93HP6lyZmRaAH4gN\/qKG0UVSBMxuYqMySV4OTHyq+8P\/AAWsrcm6lyyTHmhM5J\/+sflHBM8iqnT+HbyGfJ7don19acem30sm20ETuMHmM5kYPaR6VoTU4wdmirko2wmvfRq9tLovH4Dc2luFhMnaSPynBJEEfKqXqV17b3rrAv8AGyGUbXcgGFB4wUWOAcc5jKXtfc2fDDNs7yfngHEjPf0FWPTOpXSEQSy7gPzMV3YPfH09BWk5KNiOMiHkb+82XTrV5gyi+yT\/AJhBtfFIIiTiSOBEelLqXX\/8uLh+IEM2\/hkNIUAgBYDKScT3j05XT7lxdWRcvItq4QtlWbzEnAgAGO4niqbrqvb1uo3qb1uQbYSGBmCowZEAEfSimcH0kfiW5RjBtSfvvNX0zWTFws\/mDTNyCe0QZEEz+nImqvqmoveb4SlmZTbhg3lXEhWC+YQYJJ\/eq\/p3iRG+Ex\/yhvIKlWIKBHAhgu0mdpiexo\/VeIrbqV091C2PNIAXGD5oBPoP6UoyN\/jNYwY3HpeVmi6nftFbL25RVVGVUJYqGEEtI7wMdx9KJs+LkuSly0v4do+GdpIGAhDkjafKM+vvQ6ao7j8cJfUwFaLO4ZkyFHmUkd+CO44K1tgKtzUW9PvuflnbOAfOe7wApiRM+mCz+qjcyMuTEaBgXiLxCnxbYtpfXaCjEAAgk8DaOc+sGa1Ok1djU2Qt4bCCoTeJnZtIcmIB3dpPB5xXk6akliTk8sd3GeBnOa0ek6pcu2ALd3ZcQ53FVDrEdhJYCcD1HvQXJWxlK5j1EmbXWaCws3biIzKQReO3aJJgKDnBPcd6oesrpLWps37nnJ3bkgAGAyK2cMQwIgnIAM8Tjf4x1Oxj5ZErIKEn29Dnj3ovrWq2tBtBXAUKQNo27ZwMA\/iGfaKBf2G8LZ2Iqpt9f0HSXDjT3TccAh1iBuHlI+GSOI7ZioPEmjCKFWw+me2F+EAUuKyypIJDZk5I5kSKyXS+qahJNl2UsIYKfTParfWdaQINtlRdaA3xDcUyMnbDwZPfA\/emXKh+KDzb5gHWfDesIFy7dJQDDOCFKgYKScADhQKh\/wCHkKbn1BUgGSIAPpM9sfqPWjdZ1tAiBtOm8TvZiHJySAMQuD2jj3qez4i0\/kf+GF0+aUTgYgKV2kE959BWhMuFtqP\/AFKCCDtLHpaadLaKwtXyEUbjtaYnPcSfn6UqylzxLc\/Lca0JMKhZAAWLQQGAnzHtSqvrxjtNAzbcT0EKwVRh582fckjv8vvVe5f4wU+YAeYQYXgRMwTNF3eriAttWO0CDHAj7wDHYk9vSq+z1MIvxHzcbcUVsY7s3cL844rymJH3PTKyRC2v\/hLW\/MDKY7knzcfL7e9K6ZA3ZB5HdjnEHj+kGgR1ZnbaiM7SGPlOZnbmDjMfQ\/Se8XXaXAZwDC8rJk4PrEY44zTeWw5g6pOm0ofLkDYig8Akd5xya6bW1Z3AsewED\/6jtA55oJtWG3Eh1KSXGBJIgAme+MD69678P4lw7nbbj2WIjHqJOeOO1EY278SXG2rzxuO1ATxjyqOCfUkgCPepbL3FBJO1iQIJGflnJ4EH0pur0kCFYljLQBxmO3JzjI704ae6oMoWMYAMsSMAxznmYHrimPSQDtBvHMPxt8STJ\/Lg\/IDuCRSs3SCTJDdzj09PpH1pmqZraMxE4BKkiFA5Ekz9+SRXVLXRO45kR+GDHl2xPtml6dr7QxwcttAM7uCDjiZ9+R96nbXRiSY9+eP0\/vQrkKgCnK4\/lkjscd5pun1OZaEAw2AN0SJmfw8f0FA4we0PEsFut\/KJiR7jjEe5pEKBBUwfSMd5H1Hb1qE7WcAOfWMR7Ex7knHrUV27wSTOZJ7CRgepkCqglnaGE7FPCndExMCT8qTEAGQd0SVBx8hFCXtaUZQq+Yzt9c+me8foajt64KTAYFD5uJMkkmT2yuf9hhiaCxEQvLC6qkwZJG2Pl7+tSGzpmlTcJ9QXbPaf3o5tWM7yrewg\/wCzQzdHsXBuW2BgGR5TJP8Ay\/X9afqHexBK4+DtK0hWaJztfAxxx+lTW\/CVpYhifUycyZzHuRx2rup6QQD8NmGeN33nuaCva+\/aEbSx3zyAIwvrHYVYr5smy5L+sPT8pa6ToyIoVQpjPJwZ5z9\/pUrdODHzJPuD\/fn1qgTrl\/4q7re5WPGIycE+3r86sNT4jRDEEgQSV4Htj\/eKV8OoB97kuuYf\/AgHFp8GARt9QeD24qM9OtktNkyxBPlXJGc+80LoOvpfdQMd8mI8pgT6SORVtZ+MeVTvgNMYOJ7z+lI5zIKY194wauJX6XoKKXJ3uH53RHrFTWdJbt4CXFHy+f8ASjHuqwB2ttgmR3g4AjucD7inW7jPgsYxIAMjdOeMVU2XI3xGHqJlbqNHpz+JCZ\/5QD94\/Sgz0jSbtu1k5zuMDIHE960FpiZmWBBgngg8fXkZoHUac3G2+cEZcwPLM8bhnIH2qzHlbgsR94pkWo09i60ON7ARvYAEDLRI45OPegNd4a0jQWZgQMZBwcR+1Xel0iIEhyYaDIBmJBknIyfpQl\/V2XEOjJ8QOiE+oMEjuGnI+U04z5S1qzQcQOz4f0qGQzZ7Eyf0HFc1XhrRvtywxyD88nFWF3w7bCttc2zg+Zi0Ad8j1mQP6VHo9Cbdoi4fjqGBABgjHpg8ng+1Tz2+IZDcFSK30DRhfMu8Dhm8wmBkAd6L0fQ9Mp3KqLjkSDEes96EC\/EdvhkzJ\/yxghgYK5wAQZGRBPeiNP0+7xtZUY7nRo3KSRBEcesf8pqMzjnIZL+UmXo1kThIJJGO555POBXa7Z0DNJ+KFkkwQGH0MilVXnuP+SG\/lK+9eULst7WAgkcl3mATiCBHHyqpbpYb4js+5j+bgCCCVUfmgfL5UNr9WFVjuyNsAgEEng44wD37VWXr7MJmZk4I5H7CYrp4sLDgysmaZNRsW2FuElQAxEAZJMmQPWAMcij9P1a0hw+94wBkCJ7jA5Oc9q88tWLjMN7MYlvxHt3Ppy36mr3TWNqbkKhsGBx6kZ7xRzaRBybgs3L59aLmDK7o8x5Oc4wMkCYH5ag1OnODvAU9wTmCs+2BifWap763docFQpLFSWGTJERk1z+MfAaVO0zInMEL\/r8qC4CODCGMub3UpARZPEnklVwMnkzn3I+4F\/qVz4hImJyZJAnsc+nYUzTWC42kgnJZuDABP171BcS3gsuIEgTPPMd+DUXGoNQQi1rvMZZWQ8SDPAn50+71J8BRCqCPxCR2zk+v6U0Ku0BR78f64p9rRCJVTL\/iA9oxkT25qEJ3EbpMuE04VWZ23H8o3DkgRImDHp+9B6P4YcmfinBzAA9YA5xxQ76dnQ7\/AMQMKBu5B9fTkGlY6O4YIqc5JY5PyI7VUEFG23jgFu0lTqSBiygKYKrAERzJ9TJA9prly29xwqsVUHJxMRA+8H9Kmfo5bb5QjcSOwOYH259zRB6WiwS++QeMGVHc0bRRYjDC3eV41ar5l\/6mJliJGZ5jBx75qfqsKnxFEmB5gRzHp8j+ldOjSWIUtvxB7H19\/lXf4FNhUIxJ5PE84g\/hNIWQEGDoAuzKfTanfBJgmYmTzIAHoB6+9aTQaogbD+XP0PH2ED\/zUWm6IxYEAKBBj9wPfIor\/wBGBeSWzMAtx\/f\/AEpM2bGwIg8o1DEE8c027Z9v1FOS0vC5jv6dop\/fj\/f9653wmxJ01KvVaPeCAAD5ew\/K0x8sVXnpKhtwUDbzGOWBJgmDgmOOK0O3370MWktJ7Z98A1qxal1G0bqrcyi1OntI3kID8AzMloInMDt9vaorg1Cs8OSNoKZxgjE+2Kvb+hUS8CcfpxP3ptrTsQRxIgHEc9h9K1LqVPxb\/WMAGPqldouutsQsAWafIDuLLg4x+L2NFr1S0HJBJaUU7jEDMDtA5kCqzqvSCJVrZHmXa6kg8rUuo6QpJElYaQYg8jEnkA07YcJ34uA4WB2l1qdTb81tybcjJLQVM4gd\/p6U1esWw6HcQLhKDOdy8EwMySR9apeu9OukW1UkkLKk8gl5gH0EjHtQeku3Rv8AIrP+IEjhhEbZ5PvjvSLpUK3dxCrg1NwL6ZAYZBjPvHp6H70NrdYEXyou0FBtgALjduGI9gcZrEXep3GT4yoViSQOAT2\/+s5zxVlpfEC3E2XLe4STknn8UGD2GZ+VJ\/BZN+feJ1wzrWquWjbuBQ6NyB5vc8cCAfqTVhpdbcC3Ve2CQJIBAOwk5EEHEAEc4qpPU0e2qMfICoEZIBAIJPI4jj9at+qXt67rBh0LypxIMFgf\/wBTUdQAFZe\/P9RhVy10lhNwvAySg3HkgR5TjMAQP3oV0uM7QzboEFACJyCDM44++Kx565csXFYiUOIBA\/ED5ADg+ZiZB7+9XNjrLog3Ptgn8PmIiSVac8EfY+9VtpMqHq2N8SdQHMuNIboBh7dqcxLLzOYI\/T50qCXqjMinbaY5OSuB2Pm9SCftXapOM9wJNpkPgiNp7CYHBgGh9RZlgRjbgj2yYFKlXZVjcrcwm0qG6AqCQsvOQQNxgevDZxyKIt6YbogEYMSYhhMfrXKVJkJixWOn75KwoyAMmIz\/ALNHW+kgCWYkYP6R\/pSpVnyZGBoGOITaUhgAQfLB3KpOeIP0om1pk3fhBfBkiRme1KlWZ3Ybg9pBtDYglgqyxzj3\/SuIgX54A+8zSpVnORjyY6sZELJZ4mDMyAB3M8fKjHsGB5iDwDJP7\/SlSqMxlq951unR+bOf2pLpFyO4EfelSqpnaMVFid\/g0AAj3n37RUV+4ADtEZEnvxSpVEJY7xCKMhua64AYiAfTnOaFOsuEncRM7RBPfAz9a5SramNa4i2bi1GsKosTkgcz2qb4rSM84+00qVBlFCKTuZLfvggAzLY9OajvWFO2CcmCTGeB\/X9KVKqV2qo8nN0YESCAc+49Ki1GqVCYWI9PYD14rlKiigmE8Q1bhKzJnt2iPl9KZecCQyhiMfcD\/wA0qVBCd5aGNRX9OIVhgxtHoB8qq9Ug2sHz5oxjAHr6wD96VKtGnYm5aN7uV+p0Yt6UlQAWB3f8wkdz3x+lC2OnI5WVBlWYgk7eFiPcSv2PtSpVvxuxF33lBUdYE7qNQf4a05zAQjscR3HOYoPw51F9hM4JcEYGTDM2IjkYyOaVKtJUMjX7ynPs8i1EmwGZVPlDACYHHE1Ldsvl2uFlBVYzMEgxIIiJMfM1ylQb0mh7wkCxH9W6a1xlKMqqFCwR6T88UqVKiuRgKEt6BP\/Z''"}'
+            selfClose: true
+            tagName: img
+          ↓CardContent [mobile.components.UIDynamicElement-1588950923333]: 
+            beanData: '{"ionBean":"CardContent"}'
+            tagName: ion-card-content
+            ↓TextFormat [mobile.components.UIDynamicElement-1588950590244]: 
+              beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
+              tagName: div
+              ↓H1 [mobile.components.UIDynamicElement-1588950524492]: 
+                beanData: '{"ionBean":"Heading1"}'
+                tagName: h1
+                ↓Text [mobile.components.UIText-1588950532579]: 
+                  textValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: plain:Etes vous actuellement à votre domicile ?
+              ↓Button1 [mobile.components.UIDynamicElement-1588950623308]: 
+                beanData: '{"ionBean":"Button"}'
+                tagName: button
+                ↓Text [mobile.components.UIText-1588950660427]: 
+                  textValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: plain:Oui
+                ↓Event [mobile.components.UIControlEvent-1588951671957]: 
+                  ↓GetCurrentGPS [mobile.components.UICustomAction-1588951682197]: 
+                    actionValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '    		page.c8o.log.debug(''[MB] ''+ props.actionFunction +'': ''+ props.actionName);
+                                		if (navigator.geolocation) {
+                                    	     navigator.geolocation.getCurrentPosition((position)=> {
+                                	             resolve({
+                                	                 x: position.coords.latitude,
+                                                     y: position.coords.longitude
+                                	             });
+                                	           })
+                                	    } else {
+                                	        resolve()
+                                	    }
+                            '
+                    ↓CallSequence [mobile.components.UIDynamicAction-1589007825486]: 
+                      beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:DeplacementMax.GetMyAddress"}'
+                      ↓lat [mobile.components.UIControlVariable-1589007838060]: 
+                        comment: new variable
+                        varValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                            - MobileSmartSourceType: script:out.x
+                      ↓lng [mobile.components.UIControlVariable-1589007838062]: 
+                        comment: new variable
+                        varValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                            - MobileSmartSourceType: script:out.y
+                  ↓SetGlobal [mobile.components.UIDynamicAction-1589009178635]: 
+                    beanData: |
+                      '{
+                       "ionBean": "SetGlobalAction",
+                       "Property": "plain:manualAddress",
+                       "Value": "script:false"
+                      }'
+              ↓Button [mobile.components.UIDynamicElement-1588950628699]: 
+                beanData: '{"ionBean":"Button"}'
+                tagName: button
+                ↓Text [mobile.components.UIText-1588950662891]: 
+                  textValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: plain:Non
+                ↓Event [mobile.components.UIControlEvent-1589009091217]: 
+                  ↓ClearDataSource [mobile.components.UIDynamicAction-1589010078728]: 
+                    beanData: '{"ionBean":"ClearDataSourceAction","requestables":"source:{\"filter\":\"Sequence\",\"project\":\"DeplacementMax\",\"input\":\"listen([''DeplacementMax.GetMyAddress''])\"}"}'
+                  ↓SetGlobal [mobile.components.UIDynamicAction-1589009102473]: 
+                    beanData: |
+                      '{
+                       "ionBean": "SetGlobalAction",
+                       "Property": "plain:manualAddress",
+                       "Value": "script:true"
+                      }'
+              ↓Directive [mobile.components.UIControlDirective-1589008326800]: 
+                directiveName: If
+                directiveSource: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                    - MobileSmartSourceType: source:{"filter":"Sequence","project":"DeplacementMax","input":"listen(['DeplacementMax.GetMyAddress'])?.myaddress"}
+                ↓H2 [mobile.components.UIDynamicElement-1589007803463]: 
+                  beanData: '{"ionBean":"Heading2"}'
+                  tagName: h2
+                  ↓Text [mobile.components.UIText-1589007812183]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:Nous avons détecté que vous habitez au
+                ↓H21 [mobile.components.UIDynamicElement-1589007919174]: 
+                  beanData: '{"ionBean":"Heading2"}'
+                  tagName: h2
+                  ↓Text [mobile.components.UIText-1589007919177]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                        - MobileSmartSourceType: source:{"filter":"Sequence","project":"DeplacementMax","input":"listen(['DeplacementMax.GetMyAddress'])?.myaddress"}
+                  ↓Style [mobile.components.UIStyle-1589008654207]: 
+                    styleContent: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+                        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+                          →: |
+                            '	border: solid 1px gray;
+                            	background-color: #A0A0A0A0
+                            '
+                ↓Heading [mobile.components.UIDynamicTag-1589008876066]: 
+                  beanData: '{"ionBean":"Heading"}'
+                  tagName: h3
+                  ↓Text [mobile.components.UIText-1589008458459]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:Est-ce bien cela ? Si oui, confirmez. Sinon, sélectionnez 'non' sur le bouton ci-dessus et entrez votre adresse manuellement
+                ↓SubmitButton [mobile.components.UIDynamicElement-1589008508880]: 
+                  beanData: '{"ionBean":"SubmitButton","IonColor":"plain:secondary"}'
+                  tagName: button
+                  ↓Text [mobile.components.UIText-1589008550464]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                        - MobileSmartSourceType: plain:Confirmer
+                  ↓Event [mobile.components.UIControlEvent-1589008988688]: 
+                    ↓SetGlobal [mobile.components.UIDynamicAction-1589010191401]: 
+                      beanData: |
+                        '{
+                         "ionBean": "SetGlobalAction",
+                         "Property": "plain:latlng",
+                         "Value": "source:{\"filter\":\"Sequence\",\"project\":\"DeplacementMax\",\"input\":\"listen([''DeplacementMax.GetMyAddress''])?.latlng\"}"
+                        }'
+                      ↓CloseModal [mobile.components.UIDynamicAction-1589008997208]: 
+                        beanData: '{"ionBean":"CloseModalAction"}'
+              ↓Directive1 [mobile.components.UIControlDirective-1589009018491]: 
+                directiveName: If
+                directiveSource: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                    - MobileSmartSourceType: source:{"filter":"Global","project":"DeplacementMax","input":"router.sharedObject?.manualAddress"}
+                ↓Form [mobile.components.UIForm-1588950493140]: 
+                  ↓FormItem [mobile.components.UIDynamicElement-1588950497331]: 
+                    beanData: '{"ionBean":"FormItem"}'
+                    tagName: ion-item
+                    ↓Label [mobile.components.UIDynamicElement-1588950508132]: 
+                      beanData: '{"ionBean":"Label","Stacked":"plain:stacked"}'
+                      tagName: ion-label
+                      ↓Text [mobile.components.UIText-1588950692612]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:Entrez votre addresse manuellement...
+                    ↓TextArea [mobile.components.UIDynamicElement-1589011850523]: 
+                      beanData: |
+                        '{
+                         "ionBean": "TextArea",
+                         "FormControlName": "plain:address",
+                         "Value": "source:{\"filter\":\"Sequence\",\"project\":\"DeplacementMax\",\"input\":\"listen([''DeplacementMax.GetMyLatLng''])?.myaddress\"}"
+                        }'
+                      tagName: ion-textarea
+                  ↓SubmitButton [mobile.components.UIDynamicElement-1589014928755]: 
+                    beanData: '{"ionBean":"SubmitButton","IonColor":"plain:secondary"}'
+                    tagName: button
+                    ↓Text [mobile.components.UIText-1589014928758]: 
+                      textValue: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                          - MobileSmartSourceType: plain:Rechercher...
+                    ↓Event [mobile.components.UIControlEvent-1589014928761]: 
+                      ↓CallSequenceGetMyLatLng [mobile.components.UIDynamicAction-1589014928764]: 
+                        beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:DeplacementMax.GetMyLatLng"}'
+                        ↓address [mobile.components.UIControlVariable-1589014928767]: 
+                          comment: new variable
+                          varValue: 
+                            - xmlizable: 
+                              - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                              - MobileSmartSourceType: source:{"filter":"Form","project":"DeplacementMax","input":"form1588950493140?.controls['address']?.value"}
+                  ↓Directive [mobile.components.UIControlDirective-1589014779813]: 
+                    directiveName: If
+                    directiveSource: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                        - MobileSmartSourceType: source:{"filter":"Sequence","project":"DeplacementMax","input":"listen(['DeplacementMax.GetMyLatLng'])?.status == 'OK'"}
+                    ↓SubmitButton [mobile.components.UIDynamicElement-1589011423686]: 
+                      beanData: '{"ionBean":"SubmitButton","IonColor":"plain:secondary"}'
+                      tagName: button
+                      ↓Text [mobile.components.UIText-1589011423689]: 
+                        textValue: 
+                          - xmlizable: 
+                            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                            - MobileSmartSourceType: plain:Confirmer
+                      ↓Event [mobile.components.UIControlEvent-1589011423692]: 
+                        ↓SetGlobal [mobile.components.UIDynamicAction-1589011423695]: 
+                          beanData: |
+                            '{
+                             "ionBean": "SetGlobalAction",
+                             "Property": "plain:latlng",
+                             "Value": "source:{\"filter\":\"Sequence\",\"project\":\"DeplacementMax\",\"input\":\"listen([''DeplacementMax.GetMyLatLng''])?.latlng\"}"
+                            }'
+                          ↓CloseModal [mobile.components.UIDynamicAction-1589015017668]: 
+                            beanData: '{"ionBean":"CloseModalAction"}'
+  ↓Style [mobile.components.UIStyle-1588951193964]: 
+    styleContent: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+          →: |
+            '	background-color: #555554
+            '

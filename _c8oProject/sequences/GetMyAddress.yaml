@@ -1,0 +1,93 @@
+↓Input_variables [steps.InputVariablesStep-1589007176199]: 
+↓Concat [steps.XMLConcatStep-1589007148430]: 
+  nodeName: latlng
+  output: false
+  separator: ','
+  sourcesDefinition: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: description
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+              - com.twinsoft.convertigo.beans.common.XMLVector: 
+                - java.lang.String: 
+                  - ↑value: 1589007176199
+                - java.lang.String: 
+                  - ↑value: ./lat/text()
+            - java.lang.String: 
+              - ↑value: ''
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+          - com.twinsoft.convertigo.beans.common.XMLVector: 
+            - java.lang.String: 
+              - ↑value: description
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+              - com.twinsoft.convertigo.beans.common.XMLVector: 
+                - java.lang.String: 
+                  - ↑value: 1589007176199
+                - java.lang.String: 
+                  - ↑value: ./lng/text()
+            - java.lang.String: 
+              - ↑value: ''
+↓Call_Transaction [steps.TransactionStep-1589007102075]: 
+  sourceTransaction: DeplacementMax.GoogleGeoCoding.ReverseGeoCode
+  ↓latlng [variables.StepVariable-1589007102077]: 
+    sourceDefinition: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - java.lang.String: 
+            - ↑value: 1589007148430
+          - java.lang.String: 
+            - ↑value: ./text()
+↓Complex [steps.XMLComplexStep-1589010955832]: 
+  nodeName: latlng
+  ↓Element [steps.XMLElementStep-1589010955835]: 
+    nodeName: lat
+    sourceDefinition: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - java.lang.String: 
+            - ↑value: 1589007176199
+          - java.lang.String: 
+            - ↑value: ./lat/text()
+    ↓Attribute [steps.XMLAttributeStep-1589017014315]: 
+      nodeName: type
+      nodeText: double
+  ↓Element1 [steps.XMLElementStep-1589010955838]: 
+    nodeName: lng
+    sourceDefinition: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - java.lang.String: 
+            - ↑value: 1589007176199
+          - java.lang.String: 
+            - ↑value: ./lng/text()
+    ↓Attribute [steps.XMLAttributeStep-1589017015742]: 
+      nodeName: type
+      nodeText: double
+↓Element [steps.XMLElementStep-1589008015167]: 
+  nodeName: myaddress
+  sourceDefinition: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - java.lang.String: 
+          - ↑value: 1589007102075
+        - java.lang.String: 
+          - ↑value: ./document/object/results/object[1]/formatted_address/text()
+↓lat [variables.RequestableVariable-1589007073157]: 
+↓lng [variables.RequestableVariable-1589007079985]: 
+↓OK [core.TestCase]: 
+  ↓lat [variables.TestCaseVariable-1589007235144]: 
+    value: 40.714224
+  ↓lng [variables.TestCaseVariable-1589007235146]: 
+    value: '-73.961452'

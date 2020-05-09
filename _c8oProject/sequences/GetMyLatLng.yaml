@@ -1,0 +1,67 @@
+↓Input_variables [steps.InputVariablesStep-1589010527302]: 
+↓Call_Transaction [steps.TransactionStep-1589010527308]: 
+  sourceTransaction: DeplacementMax.GoogleGeoCoding.GeoCode
+  ↓address [variables.StepVariable-1589010601542]: 
+    sourceDefinition: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - java.lang.String: 
+            - ↑value: 1589010527302
+          - java.lang.String: 
+            - ↑value: ./address/text()
+↓Complex [steps.XMLComplexStep-1589010733321]: 
+  nodeName: latlng
+  ↓Element [steps.XMLElementStep-1589010748817]: 
+    nodeName: lat
+    sourceDefinition: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - java.lang.String: 
+            - ↑value: 1589010527308
+          - java.lang.String: 
+            - ↑value: ./document/object/results/object/geometry/location/lat/text()
+    ↓Attribute [steps.XMLAttributeStep-1589015549596]: 
+      nodeName: type
+      nodeText: double
+  ↓Element1 [steps.XMLElementStep-1589010754810]: 
+    nodeName: lng
+    sourceDefinition: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+        - com.twinsoft.convertigo.beans.common.XMLVector: 
+          - java.lang.String: 
+            - ↑value: 1589010527308
+          - java.lang.String: 
+            - ↑value: ./document/object/results/object/geometry/location/lng/text()
+    ↓Attribute [steps.XMLAttributeStep-1589015568256]: 
+      nodeName: type
+      nodeText: double
+↓Element [steps.XMLElementStep-1589011640441]: 
+  nodeName: myaddress
+  sourceDefinition: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - java.lang.String: 
+          - ↑value: 1589010527308
+        - java.lang.String: 
+          - ↑value: ./document/object/results/object/formatted_address/text()
+↓Element1 [steps.XMLElementStep-1589014833388]: 
+  nodeName: status
+  sourceDefinition: 
+    - xmlizable: 
+      - ↑classname: com.twinsoft.convertigo.beans.common.XMLVector
+      - com.twinsoft.convertigo.beans.common.XMLVector: 
+        - java.lang.String: 
+          - ↑value: 1589010527308
+        - java.lang.String: 
+          - ↑value: ./document/object/status/text()
+↓address [variables.RequestableVariable-1589010527317]: 
+↓KO [core.TestCase]: 
+  ↓address [variables.TestCaseVariable-1589014870442]: 
+    value: XXXXX
+↓OK [core.TestCase]: 
+  ↓address [variables.TestCaseVariable-1589010562798]: 
+    value: 115 avenue du maine paris

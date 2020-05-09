@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:DeplacementMax_ns="http://www.convertigo.com/convertigo/projects/DeplacementMax" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://www.convertigo.com/convertigo/projects/DeplacementMax">
+    <xsd:element name="GoogleGeoCoding__ReverseGeoCode" type="DeplacementMax_ns:GoogleGeoCoding__ReverseGeoCodeRequestData">
+        <xsd:annotation/>
+    </xsd:element>
+    <xsd:element name="GoogleGeoCoding__ReverseGeoCodeResponse">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="response" type="DeplacementMax_ns:GoogleGeoCoding__ReverseGeoCodeResponseData"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="GoogleGeoCoding__ReverseGeoCodeResponseType">
+        <xsd:sequence>
+            <xsd:element name="document" type="DeplacementMax_ns:GoogleGeoCoding__ReverseGeoCodeResponseData"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding__ReverseGeoCodeRequestData">
+        <xsd:sequence>
+            <xsd:element name="latlng" type="xsd:string">
+                <xsd:annotation>
+                    <xsd:appinfo>new variable</xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+            <xsd:element name="key" type="xsd:string">
+                <xsd:annotation>
+                    <xsd:appinfo>new variable</xsd:appinfo>
+                </xsd:annotation>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_plus_code_compound_codeType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_plus_code_global_codeType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_plus_codeType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="compound_code" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_plus_code_compound_codeType"/>
+            <xsd:element minOccurs="0" name="global_code" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_plus_code_global_codeType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_access_pointsType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute name="length" type="xsd:byte"/>
+                <xsd:attribute default="array" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_components_object_long_nameType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_components_object_short_nameType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_components_object_types_valueType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_components_object_typesType">
+        <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="value" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_components_object_types_valueType"/>
+        </xsd:sequence>
+        <xsd:attribute name="length" type="xsd:byte"/>
+        <xsd:attribute default="array" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_components_objectType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="long_name" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_components_object_long_nameType"/>
+            <xsd:element minOccurs="0" name="short_name" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_components_object_short_nameType"/>
+            <xsd:element minOccurs="0" name="types" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_components_object_typesType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_componentsType">
+        <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="object" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_components_objectType"/>
+        </xsd:sequence>
+        <xsd:attribute name="length" type="xsd:byte"/>
+        <xsd:attribute default="array" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_formatted_addressType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_location_latType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_location_lngType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_locationType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="lat" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_location_latType"/>
+            <xsd:element minOccurs="0" name="lng" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_location_lngType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_location_typeType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_northeast_latType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_northeast_lngType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_northeastType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="lat" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_northeast_latType"/>
+            <xsd:element minOccurs="0" name="lng" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_northeast_lngType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_southwest_latType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_southwest_lngType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_southwestType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="lat" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_southwest_latType"/>
+            <xsd:element minOccurs="0" name="lng" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_southwest_lngType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewportType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="northeast" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_northeastType"/>
+            <xsd:element minOccurs="0" name="southwest" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewport_southwestType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_northeast_latType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_northeast_lngType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_northeastType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="lat" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_northeast_latType"/>
+            <xsd:element minOccurs="0" name="lng" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_northeast_lngType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_southwest_latType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_southwest_lngType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_southwestType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="lat" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_southwest_latType"/>
+            <xsd:element minOccurs="0" name="lng" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_southwest_lngType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_boundsType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="northeast" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_northeastType"/>
+            <xsd:element minOccurs="0" name="southwest" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_bounds_southwestType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometryType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="location" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_locationType"/>
+            <xsd:element minOccurs="0" name="location_type" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_location_typeType"/>
+            <xsd:element minOccurs="0" name="viewport" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_viewportType"/>
+            <xsd:element minOccurs="0" name="bounds" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometry_boundsType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_place_idType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_plus_code_compound_codeType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_plus_code_global_codeType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_plus_codeType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="compound_code" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_plus_code_compound_codeType"/>
+            <xsd:element minOccurs="0" name="global_code" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_plus_code_global_codeType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_types_valueType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_object_typesType">
+        <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="value" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_types_valueType"/>
+        </xsd:sequence>
+        <xsd:attribute name="length" type="xsd:byte"/>
+        <xsd:attribute default="array" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_results_objectType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="access_points" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_access_pointsType"/>
+            <xsd:element minOccurs="0" name="address_components" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_address_componentsType"/>
+            <xsd:element minOccurs="0" name="formatted_address" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_formatted_addressType"/>
+            <xsd:element minOccurs="0" name="geometry" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_geometryType"/>
+            <xsd:element minOccurs="0" name="place_id" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_place_idType"/>
+            <xsd:element minOccurs="0" name="plus_code" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_plus_codeType"/>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="types" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_object_typesType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_resultsType">
+        <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="object" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_results_objectType"/>
+        </xsd:sequence>
+        <xsd:attribute name="length" type="xsd:byte"/>
+        <xsd:attribute default="array" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_object_statusType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string">
+                <xsd:attribute default="string" name="type" type="xsd:string"/>
+            </xsd:extension>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding_ReverseGeoCode_document_objectType">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="plus_code" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_plus_codeType"/>
+            <xsd:element minOccurs="0" name="results" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_resultsType"/>
+            <xsd:element minOccurs="0" name="status" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_object_statusType"/>
+        </xsd:sequence>
+        <xsd:attribute default="object" name="type" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="GoogleGeoCoding__ReverseGeoCodeResponseData">
+        <xsd:sequence>
+            <xsd:element minOccurs="0" name="object" type="DeplacementMax_ns:GoogleGeoCoding_ReverseGeoCode_document_objectType"/>
+            <xsd:element minOccurs="0" name="error" type="DeplacementMax_ns:ConvertigoError"/>
+        </xsd:sequence>
+        <xsd:attribute name="connector" type="xsd:string"/>
+        <xsd:attribute name="context" type="xsd:string"/>
+        <xsd:attribute name="contextId" type="xsd:string"/>
+        <xsd:attribute name="fromStub" type="xsd:boolean"/>
+        <xsd:attribute name="fromcache" type="xsd:boolean"/>
+        <xsd:attribute name="generated" type="xsd:string"/>
+        <xsd:attribute name="project" type="xsd:string"/>
+        <xsd:attribute name="sequence" type="xsd:string"/>
+        <xsd:attribute name="signature" type="xsd:long"/>
+        <xsd:attribute name="transaction" type="xsd:string"/>
+        <xsd:attribute name="version" type="xsd:string"/>
+        <xsd:attribute name="screenclass" type="xsd:string"/>
+        <xsd:attribute name="userReference" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="ConvertigoErrorContextVariable">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="value" type="xsd:string"/>
+    </xsd:complexType>
+    <xsd:complexType name="ConvertigoErrorContext">
+        <xsd:sequence>
+            <xsd:element maxOccurs="unbounded" minOccurs="0" name="variable" type="DeplacementMax_ns:ConvertigoErrorContextVariable"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="ConvertigoError">
+        <xsd:sequence minOccurs="0">
+            <xsd:element name="code" type="xsd:integer"/>
+            <xsd:element name="message" type="xsd:string"/>
+            <xsd:element name="details" type="xsd:string"/>
+            <xsd:element name="context" type="DeplacementMax_ns:ConvertigoErrorContext"/>
+            <xsd:element name="exception" type="xsd:string"/>
+            <xsd:element name="stacktrace" type="xsd:string"/>
+        </xsd:sequence>
+        <xsd:attribute name="project" type="xsd:string"/>
+        <xsd:attribute name="connector" type="xsd:string"/>
+        <xsd:attribute name="transaction" type="xsd:string"/>
+        <xsd:attribute name="sequence" type="xsd:string"/>
+        <xsd:attribute name="type">
+            <xsd:simpleType>
+                <xsd:restriction base="xsd:string">
+                    <xsd:enumeration value="c8o"/>
+                    <xsd:enumeration value="project"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+</xsd:schema>
