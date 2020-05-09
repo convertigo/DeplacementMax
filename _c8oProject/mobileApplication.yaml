@@ -135,3 +135,19 @@ tplProjectName: mobilebuilder_tpl_7_8_0
           	*/
           }
           '
+↓AppEvent [mobile.components.UIAppEvent-1589021019992]: 
+  appEvent: onNetworkReachable
+  ↓GetData [mobile.components.UIDynamicAction-1589021038984]: 
+    beanData: |
+      '{
+       "ionBean": "FullSyncGetAction",
+       "requestable": "plain:DeplacementMax.deplacementmax_fullsync",
+       "_id": "plain:_local\/latlng"
+      }'
+    ↓SetGlobal [mobile.components.UIDynamicAction-1589021059768]: 
+      beanData: |
+        '{
+         "ionBean": "SetGlobalAction",
+         "Property": "plain:latlng",
+         "Value": "script:out.latlng"
+        }'

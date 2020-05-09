@@ -50,6 +50,26 @@ title: Carte
         ↓Icon [mobile.components.UIDynamicElement-1491634637555]: 
           beanData: '{"ionBean":"Icon","IconName":"plain:more"}'
           tagName: ion-icon
+        ↓Event [mobile.components.UIControlEvent-1589025535731]: 
+          ↓ModalPage [mobile.components.UIDynamicAction-1589025544780]: 
+            beanData: |
+              '{
+               "ionBean": "ModalAction",
+               "page": "plain:DeplacementMax.MobileApplication.Application.MonAdresse",
+               "blockWhileDisplayed": "plain:true"
+              }'
+            ↓PostData [mobile.components.UIDynamicAction-1589025590391]: 
+              beanData: |
+                '{
+                 "ionBean": "FullSyncPostAction",
+                 "requestable": "plain:DeplacementMax.deplacementmax_fullsync",
+                 "_id": "plain:_local\/latlng"
+                }'
+              ↓latlng [mobile.components.UIControlVariable-1589025590394]: 
+                varValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                    - MobileSmartSourceType: source:{"filter":"Global","project":"DeplacementMax","input":"router.sharedObject?.latlng"}
 ↓Content [mobile.components.UIDynamicElement-1489674805352]: 
   beanData: '{"ionBean":"Content","IonPadding":"plain"}'
   comment: Page content
@@ -117,5 +137,24 @@ title: Carte
               - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
               - MobileSmartSourceType: plain:Action 2
 ↓PageEvent [mobile.components.UIPageEvent-1588950745196]: 
-  ↓ModalPage [mobile.components.UIDynamicAction-1588950756228]: 
-    beanData: '{"ionBean":"ModalAction","page":"plain:DeplacementMax.MobileApplication.Application.MonAdresse"}'
+  ↓If_not_latlng [mobile.components.UIDynamicAction-1589021087704]: 
+    beanData: '{"ionBean":"IfAction","condition":"script:page.router.sharedObject.latlng != undefined"}'
+    ↓ModalPage [mobile.components.UIDynamicAction-1588950756228]: 
+      beanData: |
+        '{
+         "ionBean": "ModalAction",
+         "page": "plain:DeplacementMax.MobileApplication.Application.MonAdresse",
+         "blockWhileDisplayed": "plain:true"
+        }'
+      ↓PostData [mobile.components.UIDynamicAction-1589020805329]: 
+        beanData: |
+          '{
+           "ionBean": "FullSyncPostAction",
+           "requestable": "plain:DeplacementMax.deplacementmax_fullsync",
+           "_id": "plain:_local\/latlng"
+          }'
+        ↓latlng [mobile.components.UIControlVariable-1589020863392]: 
+          varValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+              - MobileSmartSourceType: source:{"filter":"Global","project":"DeplacementMax","input":"router.sharedObject?.latlng"}

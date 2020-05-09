@@ -2,6 +2,7 @@
 ↓DeplacementMax [core.Project]: 
   comment: Convertigo Mobile builder Project
   corsOrigin: =Origin
+  ↓deplacementmax_fullsync [connectors.FullSyncConnector]: 🗏 connectors/deplacementmax_fullsync.yaml
   ↓GoogleGeoCoding [connectors.HttpConnector]: 🗏 connectors/GoogleGeoCoding.yaml
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
   ↓GetMyAddress [sequences.GenericSequence]: 🗏 sequences/GetMyAddress.yaml
@@ -14,3 +15,5 @@
     ↓iOS [mobileplatforms.IOs]: 
       comment: iOS platform
     ↓Application [mobile.components.ApplicationComponent]: 🗏 mobileApplication.yaml
+  ↓CouchDb_schema [references.ImportXsdSchemaReference]: 
+    urlpath: http://localhost:18080/convertigo/xsd/couchdb/CouchDb.xsd
