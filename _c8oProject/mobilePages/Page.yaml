@@ -138,7 +138,7 @@ title: Carte
               - MobileSmartSourceType: plain:Action 2
 ↓PageEvent [mobile.components.UIPageEvent-1588950745196]: 
   ↓If_not_latlng [mobile.components.UIDynamicAction-1589021087704]: 
-    beanData: '{"ionBean":"IfAction","condition":"script:page.router.sharedObject.latlng != undefined"}'
+    beanData: '{"ionBean":"IfAction","condition":"script:this.router.sharedObject.latlng != undefined"}'
     ↓ModalPage [mobile.components.UIDynamicAction-1588950756228]: 
       beanData: |
         '{
