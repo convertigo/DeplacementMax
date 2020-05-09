@@ -54,6 +54,18 @@ title: A propos...
                   - xmlizable: 
                     - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
                     - MobileSmartSourceType: plain:Application 'Covid - Distance Max'
+              ↓Attr [mobile.components.UIAttribute-1589025728619]: 
+                attrName: 
+                attrValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:text-center
+              ↓Attr1 [mobile.components.UIAttribute-1589025748430]: 
+                attrName: 
+                attrValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:text-wrap
           ↓CardContent [mobile.components.UIDynamicElement-1589018546006]: 
             beanData: '{"ionBean":"CardContent"}'
             tagName: ion-card-content
