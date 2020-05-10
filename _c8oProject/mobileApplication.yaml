@@ -164,6 +164,14 @@ tplProjectName: mobilebuilder_tpl_7_8_0
             - xmlizable: 
               - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
               - MobileSmartSourceType: source:{"filter":"Global","project":"DeplacementMax","input":"router.sharedObject?.latlng"}
+  ↓Finally_Handler [mobile.components.UIActionFinallyEvent-1589118837278]: 
+    ↓SetGlobal [mobile.components.UIDynamicAction-1589118844261]: 
+      beanData: |
+        '{
+         "ionBean": "SetGlobalAction",
+         "Property": "plain:currentLatLng",
+         "Value": "script:null"
+        }'
   ↓GetData [mobile.components.UIDynamicAction-1589021038984]: 
     beanData: |
       '{

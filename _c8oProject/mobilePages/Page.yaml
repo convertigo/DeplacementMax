@@ -89,14 +89,40 @@ title: Carte
          "Zoom": "script:7"
         }'
       tagName: agm-map
+      ↓Directive [mobile.components.UIControlDirective-1589119081342]: 
+        directiveName: If
+        directiveSource: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Global","project":"DeplacementMax","input":"router.sharedObject?.currentLatLng"}
+        ↓MapMarketCurrentPosition [mobile.components.UIDynamicElement-1589118966110]: 
+          beanData: |
+            '{
+             "ionBean": "MapMarker",
+             "Latitude": "source:{\"filter\":\"Global\",\"project\":\"DeplacementMax\",\"input\":\"router.sharedObject?.currentLatLng.lat\"}",
+             "Longitude": "source:{\"filter\":\"Global\",\"project\":\"DeplacementMax\",\"input\":\"router.sharedObject?.currentLatLng.lng\"}"
+            }'
+          tagName: agm-marker
       ↓MapMarker [mobile.components.UIDynamicElement-1589017300406]: 
         beanData: |
           '{
            "ionBean": "MapMarker",
+           "IconUrl": "script:{\r\n \turl: ''assets\/images\/md-home.svg'',\r\n       scaledSize: {\r\n                width: 32 ,\r\n                height: 32\r\n       }\r\n}",
            "Latitude": "source:{\"filter\":\"Global\",\"project\":\"DeplacementMax\",\"input\":\"router.sharedObject?.latlng.lat\"}",
            "Longitude": "source:{\"filter\":\"Global\",\"project\":\"DeplacementMax\",\"input\":\"router.sharedObject?.latlng.lng\"}"
           }'
         tagName: agm-marker
+        ↓MapInfoWindow [mobile.components.UIDynamicElement-1589118190254]: 
+          beanData: '{"ionBean":"MapInfoWindow"}'
+          tagName: agm-info-window
+          ↓H1 [mobile.components.UIDynamicElement-1589118215270]: 
+            beanData: '{"ionBean":"Heading1"}'
+            tagName: h1
+            ↓Text [mobile.components.UIText-1589118221061]: 
+              textValue: 
+                - xmlizable: 
+                  - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                  - MobileSmartSourceType: plain:Domicile
       ↓MapCircle [mobile.components.UIDynamicElement-1589017334237]: 
         beanData: |
           '{
@@ -106,34 +132,24 @@ title: Carte
            "Radius": "script:100000"
           }'
         tagName: agm-circle
-↓Footer [mobile.components.UIDynamicElement-1491634242460]: 
-  beanData: '{"ionBean":"Footer"}'
-  comment: Page footer
-  isEnabled: false
-  tagName: ion-footer
-  ↓ToolBar [mobile.components.UIDynamicElement-1491634317538]: 
-    beanData: '{"ionBean":"ToolBar","IonColor":"plain:primary"}'
-    tagName: ion-toolbar
-    ↓ButtonSet [mobile.components.UIDynamicElement-1491634325595]: 
-      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:left"}'
-      tagName: ion-buttons
-      ↓Button [mobile.components.UIDynamicElement-1491634332730]: 
-        beanData: '{"ionBean":"Button"}'
-        tagName: button
-        ↓Text [mobile.components.UIText-1491634340354]: 
-          textValue: 
-            - xmlizable: 
-              - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-              - MobileSmartSourceType: plain:Action 1
-    ↓ButtonSet1 [mobile.components.UIDynamicElement-1491634373539]: 
-      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:right"}'
-      tagName: ion-buttons
-      ↓Button [mobile.components.UIDynamicElement-1491634376874]: 
-        beanData: '{"ionBean":"Button"}'
-        tagName: button
-        ↓Text [mobile.components.UIText-1491634383107]: 
-          textValue: 
-            - xmlizable: 
-              - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-              - MobileSmartSourceType: plain:Action 2
 ↓PageEvent [mobile.components.UIPageEvent-1588950745196]: 
+  ↓StartGPSTracking [mobile.components.UICustomAction-1589118262421]: 
+    actionValue: 
+      - xmlizable: 
+        - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+        - com.twinsoft.convertigo.beans.common.FormatedContent: 
+          →: |
+            '		page.c8o.log.debug(''[MB] ''+ props.actionFunction +'': ''+ props.actionName);
+            		window.setInterval(()=> {
+            		    if (navigator.geolocation)
+            	            navigator.geolocation.getCurrentPosition((position)=>{
+            	                page.router.sharedObject.currentLatLng = {
+            	                        lat: position.coords.latitude,
+            	                        lng: position.coords.longitude,
+            	                }
+            	            }, (error)=>{
+            	                page.c8o.log.debug(''[GPSTrack] ''+ error.message)
+            	            })
+            		}, 1000)
+            		resolve();
+            '
