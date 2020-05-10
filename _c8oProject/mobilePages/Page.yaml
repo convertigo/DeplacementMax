@@ -103,6 +103,17 @@ title: Carte
              "Longitude": "source:{\"filter\":\"Global\",\"project\":\"DeplacementMax\",\"input\":\"router.sharedObject?.currentLatLng.lng\"}"
             }'
           tagName: agm-marker
+          ↓MapInfoWindow [mobile.components.UIDynamicElement-1589120121954]: 
+            beanData: '{"ionBean":"MapInfoWindow"}'
+            tagName: agm-info-window
+            ↓H1 [mobile.components.UIDynamicElement-1589120121957]: 
+              beanData: '{"ionBean":"Heading1"}'
+              tagName: h1
+              ↓Text [mobile.components.UIText-1589120121960]: 
+                textValue: 
+                  - xmlizable: 
+                    - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                    - MobileSmartSourceType: plain:Votre position actuelle
       ↓MapMarker [mobile.components.UIDynamicElement-1589017300406]: 
         beanData: |
           '{
