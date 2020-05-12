@@ -246,6 +246,14 @@ title: Carte
                         - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
                         - MobileSmartSourceType: source:{"filter":"Iteration","project":"DeplacementMax","input":"item1589263734460?.value?.name"}
 ↓PageEvent [mobile.components.UIPageEvent-1588950745196]: 
+  ↓Error_Handler [mobile.components.UIActionErrorEvent-1589303703417]: 
+    ↓SetGlobal [mobile.components.UIDynamicAction-1589303712659]: 
+      beanData: |
+        '{
+         "ionBean": "SetGlobalAction",
+         "Property": "plain:showAirfields",
+         "Value": "script:false"
+        }'
   ↓QueryView [mobile.components.UIDynamicAction-1589263627332]: 
     beanData: |
       '{
