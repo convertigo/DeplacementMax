@@ -259,6 +259,28 @@ title: Title for MonAdresse
                             }'
                           ↓CloseModal [mobile.components.UIDynamicAction-1589015017668]: 
                             beanData: '{"ionBean":"CloseModalAction"}'
+          ↓FabContainer [mobile.components.UIDynamicElement-1589274306316]: 
+            beanData: |
+              '{
+               "ionBean": "FabContainer",
+               "HorzPosition": "plain:right",
+               "VertPosition": "plain:top"
+              }'
+            tagName: ion-fab
+            ↓FabButton [mobile.components.UIDynamicElement-1589274328325]: 
+              beanData: |
+                '{
+                 "ionBean": "FabButton",
+                 "IonColor": "plain:danger",
+                 "Size": "plain:mini"
+                }'
+              tagName: button
+              ↓Icon [mobile.components.UIDynamicElement-1589274351636]: 
+                beanData: '{"ionBean":"Icon","IconName":"plain:close"}'
+                tagName: ion-icon
+              ↓Event [mobile.components.UIControlEvent-1589274378579]: 
+                ↓CloseModal [mobile.components.UIDynamicAction-1589274388748]: 
+                  beanData: '{"ionBean":"CloseModalAction"}'
   ↓Style [mobile.components.UIStyle-1588951193964]: 
     styleContent: 
       - xmlizable: 
