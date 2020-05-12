@@ -272,6 +272,12 @@ title: Title for MonAdresse
                         - xmlizable: 
                           - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
                           - MobileSmartSourceType: plain:Activer l'affichage des terrains d'aviation accessibles.
+                    ↓Attr [mobile.components.UIAttribute-1589286262419]: 
+                      attrName: 
+                      attrValue: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                          - MobileSmartSourceType: plain:text-wrap
                   ↓ToggleButton [mobile.components.UIDynamicElement-1589277865219]: 
                     beanData: |
                       '{
