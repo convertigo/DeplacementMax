@@ -192,56 +192,67 @@ title: Carte
            "Radius": "script:100000"
           }'
         tagName: agm-circle
-      ↓Directive1 [mobile.components.UIControlDirective-1589263734460]: 
+      ↓Directive2 [mobile.components.UIControlDirective-1589278398676]: 
+        directiveName: If
         directiveSource: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-            - MobileSmartSourceType: source:{"filter":"Database","project":"DeplacementMax","input":"listen(['fs:\/\/deplacementmax_fullsync.view, {ddoc='Design_document', view='AirportsByCountry', include_docs='false'}'])?.rows"}
-        ↓Directive [mobile.components.UIControlDirective-1589265185780]: 
-          directiveName: If
+            - MobileSmartSourceType: source:{"filter":"Global","project":"DeplacementMax","input":"router.sharedObject?.showAirfields"}
+        ↓Directive1 [mobile.components.UIControlDirective-1589263734460]: 
           directiveSource: 
             - xmlizable: 
               - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-              - MobileSmartSourceType: |
-                  script:this.distance(
-                  	item1589263734460.value.latitude * 1,
-                  	item1589263734460.value.longitude * 1,
-                  	router.sharedObject.latlng.lat * 1,
-                  	router.sharedObject.latlng.lng * 1,
-                  	'K'
-                  ) < 110
-                  
-          ↓MapMarker [mobile.components.UIDynamicElement-1589263772892]: 
-            beanData: |
-              '{
-               "ionBean": "MapMarker",
-               "IconUrl": "script:{\r\n \turl: ''assets\/images\/ios-plane.svg'',\r\n       scaledSize: {\r\n                width: 32 ,\r\n                height: 32\r\n       }\r\n}",
-               "Latitude": "script:item1589263734460.value.latitude * 1",
-               "Longitude": "script:item1589263734460.value.longitude * 1"
-              }'
-            tagName: agm-marker
-            ↓MapInfoWindow [mobile.components.UIDynamicElement-1589269546658]: 
-              beanData: '{"ionBean":"MapInfoWindow"}'
-              tagName: agm-info-window
-              ↓H1 [mobile.components.UIDynamicElement-1589269556780]: 
-                beanData: '{"ionBean":"Heading1"}'
-                tagName: h1
-                ↓Text [mobile.components.UIText-1589269572795]: 
-                  textValue: 
-                    - xmlizable: 
-                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-                      - MobileSmartSourceType: source:{"filter":"Iteration","project":"DeplacementMax","input":"item1589263734460?.value?.id"}
-              ↓Paragraph [mobile.components.UIDynamicElement-1589269564651]: 
-                beanData: '{"ionBean":"Paragraph"}'
-                tagName: p
-                ↓Text [mobile.components.UIText-1589269575692]: 
-                  textValue: 
-                    - xmlizable: 
-                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-                      - MobileSmartSourceType: source:{"filter":"Iteration","project":"DeplacementMax","input":"item1589263734460?.value?.name"}
+              - MobileSmartSourceType: source:{"filter":"Database","project":"DeplacementMax","input":"listen(['fs:\/\/deplacementmax_fullsync.view, {ddoc='Design_document', view='AirportsByCountry', include_docs='false'}'])?.rows"}
+          ↓Directive [mobile.components.UIControlDirective-1589265185780]: 
+            directiveName: If
+            directiveSource: 
+              - xmlizable: 
+                - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                - MobileSmartSourceType: |
+                    script:this.distance(
+                    	item1589263734460.value.latitude * 1,
+                    	item1589263734460.value.longitude * 1,
+                    	router.sharedObject.latlng.lat * 1,
+                    	router.sharedObject.latlng.lng * 1,
+                    	'K'
+                    ) < 110
+                    
+            ↓MapMarker [mobile.components.UIDynamicElement-1589263772892]: 
+              beanData: |
+                '{
+                 "ionBean": "MapMarker",
+                 "IconUrl": "script:{\r\n \turl: ''assets\/images\/ios-plane.svg'',\r\n       scaledSize: {\r\n                width: 32 ,\r\n                height: 32\r\n       }\r\n}",
+                 "Latitude": "script:item1589263734460.value.latitude * 1",
+                 "Longitude": "script:item1589263734460.value.longitude * 1"
+                }'
+              tagName: agm-marker
+              ↓MapInfoWindow [mobile.components.UIDynamicElement-1589269546658]: 
+                beanData: '{"ionBean":"MapInfoWindow"}'
+                tagName: agm-info-window
+                ↓H1 [mobile.components.UIDynamicElement-1589269556780]: 
+                  beanData: '{"ionBean":"Heading1"}'
+                  tagName: h1
+                  ↓Text [mobile.components.UIText-1589269572795]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                        - MobileSmartSourceType: source:{"filter":"Iteration","project":"DeplacementMax","input":"item1589263734460?.value?.id"}
+                ↓Paragraph [mobile.components.UIDynamicElement-1589269564651]: 
+                  beanData: '{"ionBean":"Paragraph"}'
+                  tagName: p
+                  ↓Text [mobile.components.UIText-1589269575692]: 
+                    textValue: 
+                      - xmlizable: 
+                        - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                        - MobileSmartSourceType: source:{"filter":"Iteration","project":"DeplacementMax","input":"item1589263734460?.value?.name"}
 ↓PageEvent [mobile.components.UIPageEvent-1588950745196]: 
   ↓QueryView [mobile.components.UIDynamicAction-1589263627332]: 
-    beanData: '{"ionBean":"FullSyncViewAction","fsview":"plain:DeplacementMax.deplacementmax_fullsync.Design_document.AirportsByCountry"}'
+    beanData: |
+      '{
+       "ionBean": "FullSyncViewAction",
+       "noLoading": "plain:true",
+       "fsview": "plain:DeplacementMax.deplacementmax_fullsync.Design_document.AirportsByCountry"
+      }'
     ↓StartGPSTracking [mobile.components.UICustomAction-1589118262421]: 
       actionValue: 
         - xmlizable: 
@@ -262,3 +273,17 @@ title: Carte
               		}, 1000)
               		resolve();
               '
+  ↓GetDataFromLocalDB [mobile.components.UIDynamicAction-1589278331612]: 
+    beanData: |
+      '{
+       "ionBean": "FullSyncGetAction",
+       "requestable": "plain:DeplacementMax.deplacementmax_fullsync",
+       "_id": "plain:_local\/airfield"
+      }'
+    ↓SetGlobal [mobile.components.UIDynamicAction-1589278438108]: 
+      beanData: |
+        '{
+         "ionBean": "SetGlobalAction",
+         "Property": "plain:showAirfields",
+         "Value": "script:out.enable"
+        }'

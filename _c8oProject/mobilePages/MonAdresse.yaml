@@ -70,7 +70,8 @@ title: Title for MonAdresse
                       beanData: |
                         '{
                          "ionBean": "ToastAction",
-                         "message": "plain:Nou n''avons pas pu accéder à votre GPS. Vérifiez qu''il est bien activé et que vous avez autorisé cette application a y accéder.",
+                         "message": "plain:Nous n''avons pas pu accéder à votre service de localisation. Vérifiez qu''il est bien activé et que vous avez autorisé votre navigateur Safari  ou Chrome a y accéder (Pour téléphones Apple, Réglages->Confidentialité->Services de Localisation, activer Safari ou Chrome)",
+                         "duration": "plain:10000",
                          "position": "plain:middle"
                         }'
                   ↓GetCurrentGPS [mobile.components.UICustomAction-1588951682197]: 
@@ -259,6 +260,27 @@ title: Title for MonAdresse
                             }'
                           ↓CloseModal [mobile.components.UIDynamicAction-1589015017668]: 
                             beanData: '{"ionBean":"CloseModalAction"}'
+              ↓Form [mobile.components.UIForm-1589278082415]: 
+                ↓FormItem [mobile.components.UIDynamicElement-1589277830462]: 
+                  beanData: '{"ionBean":"FormItem"}'
+                  tagName: ion-item
+                  ↓Label [mobile.components.UIDynamicElement-1589277830465]: 
+                    beanData: '{"ionBean":"Label","Stacked":"plain:stacked"}'
+                    tagName: ion-label
+                    ↓Text [mobile.components.UIText-1589277830468]: 
+                      textValue: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                          - MobileSmartSourceType: plain:Activer l'affichage des terrains d'aviation accessibles.
+                  ↓ToggleButton [mobile.components.UIDynamicElement-1589277865219]: 
+                    beanData: |
+                      '{
+                       "ionBean": "Toggle",
+                       "FormControlName": "plain:airfield",
+                       "Checked": "source:{\"filter\":\"Global\",\"project\":\"DeplacementMax\",\"input\":\"router.sharedObject?.showAirfields\"}"
+                      }'
+                    tagName: ion-toggle
+                    ↓Event [mobile.components.UIControlEvent-1589278152268]: 
           ↓FabContainer [mobile.components.UIDynamicElement-1589274306316]: 
             beanData: |
               '{
@@ -279,8 +301,27 @@ title: Title for MonAdresse
                 beanData: '{"ionBean":"Icon","IconName":"plain:close"}'
                 tagName: ion-icon
               ↓Event [mobile.components.UIControlEvent-1589274378579]: 
-                ↓CloseModal [mobile.components.UIDynamicAction-1589274388748]: 
-                  beanData: '{"ionBean":"CloseModalAction"}'
+                ↓SetGlobal [mobile.components.UIDynamicAction-1589281176852]: 
+                  beanData: |
+                    '{
+                     "ionBean": "SetGlobalAction",
+                     "Property": "plain:showAirfields",
+                     "Value": "source:{\"filter\":\"Form\",\"project\":\"DeplacementMax\",\"input\":\"form1589278082415?.controls[''airfield'']?.value\"}"
+                    }'
+                  ↓PostData [mobile.components.UIDynamicAction-1589278166920]: 
+                    beanData: |
+                      '{
+                       "ionBean": "FullSyncPostAction",
+                       "requestable": "plain:DeplacementMax.deplacementmax_fullsync",
+                       "_id": "plain:_local\/airfield"
+                      }'
+                    ↓enable [mobile.components.UIControlVariable-1589278203115]: 
+                      varValue: 
+                        - xmlizable: 
+                          - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                          - MobileSmartSourceType: source:{"filter":"Form","project":"DeplacementMax","input":"form1589278082415?.controls['airfield']?.value"}
+                    ↓CloseModal [mobile.components.UIDynamicAction-1589274388748]: 
+                      beanData: '{"ionBean":"CloseModalAction"}'
   ↓Style [mobile.components.UIStyle-1588951193964]: 
     styleContent: 
       - xmlizable: 
