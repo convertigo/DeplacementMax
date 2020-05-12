@@ -26,17 +26,31 @@ title: Title for MonAdresse
             ↓TextFormat [mobile.components.UIDynamicElement-1588950590244]: 
               beanData: '{"ionBean":"TextFormat","TextCenter":"plain:text-center"}'
               tagName: div
-              ↓H11 [mobile.components.UIDynamicElement-1589133521151]: 
-                beanData: '{"ionBean":"Heading1"}'
-                tagName: h1
+              ↓Heading11 [mobile.components.UIDynamicTag-1589133816214]: 
+                beanData: '{"ionBean":"Heading"}'
+                tagName: h2
+                ↓Text [mobile.components.UIText-1589133816217]: 
+                  textValue: 
+                    - xmlizable: 
+                      - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
+                      - MobileSmartSourceType: |
+                          plain:Distance MAX. Une application pour calculer la limite de vos déplacements au sein des 100 km autour de votre domicile pour la période post-déconfinement COVID 19.
+                          
+              ↓Break [mobile.components.UIDynamicElement-1589133975089]: 
+                beanData: '{"ionBean":"Break"}'
+                selfClose: true
+                tagName: br
+              ↓Heading1 [mobile.components.UIDynamicTag-1589133776263]: 
+                beanData: '{"ionBean":"Heading"}'
+                tagName: h3
                 ↓Text [mobile.components.UIText-1589133521154]: 
                   textValue: 
                     - xmlizable: 
                       - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
                       - MobileSmartSourceType: plain:Définition de votre addresse :
-              ↓H1 [mobile.components.UIDynamicElement-1588950524492]: 
-                beanData: '{"ionBean":"Heading1"}'
-                tagName: h1
+              ↓Heading [mobile.components.UIDynamicTag-1589133755456]: 
+                beanData: '{"ionBean":"Heading"}'
+                tagName: h3
                 ↓Text [mobile.components.UIText-1588950532579]: 
                   textValue: 
                     - xmlizable: 

@@ -1,3 +1,26 @@
 databaseName: deplacementmax_fullsync
 ↓GetServerInfo [transactions.couchdb.GetServerInfoTransaction]: 
   ↑default: true
+↓PostBulkDocuments [transactions.couchdb.PostBulkDocumentsTransaction]: 
+  policy: override
+  ↓_id [variables.RequestableMultiValuedVariable-1589263203879]: 
+    description: Document ids
+  ↓data [variables.RequestableMultiValuedVariable-1589263203882]: 
+    description: Documents contents
+↓Design_document [couchdb.DesignDocument]: 
+  docdata: 
+    →: |
+      '{
+        "_id": "_design\/Design_document",
+        "filters": {},
+        "updates": {},
+        "views": {"AirportsByCountry": {"map": "function (doc) {\r\n
+          try {\r\n
+              if (doc.airport)\r\n
+                  if (doc.airport.country != \"\")\r\n
+                      emit(doc.airport.country, doc.airport);\r\n
+          } catch (err) {\r\n
+              log(err.message);\r\n
+          }\r\n
+      }"}}
+      }'

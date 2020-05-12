@@ -6,6 +6,7 @@
   ↓deplacementmax_fullsync [connectors.FullSyncConnector]: 🗏 connectors/deplacementmax_fullsync.yaml
   ↓GoogleGeoCoding [connectors.HttpConnector]: 🗏 connectors/GoogleGeoCoding.yaml
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
+  ↓FillAirports [sequences.GenericSequence]: 🗏 sequences/FillAirports.yaml
   ↓GetMyAddress [sequences.GenericSequence]: 🗏 sequences/GetMyAddress.yaml
   ↓GetMyLatLng [sequences.GenericSequence]: 🗏 sequences/GetMyLatLng.yaml
   ↓MobileApplication [core.MobileApplication]: 

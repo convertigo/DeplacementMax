@@ -172,17 +172,25 @@ tplProjectName: mobilebuilder_tpl_7_8_0
          "Property": "plain:currentLatLng",
          "Value": "script:null"
         }'
-  ↓GetData [mobile.components.UIDynamicAction-1589021038984]: 
+  ↓SyncData [mobile.components.UIDynamicAction-1589263456037]: 
     beanData: |
       '{
-       "ionBean": "FullSyncGetAction",
+       "ionBean": "FullSyncSyncAction",
        "requestable": "plain:DeplacementMax.deplacementmax_fullsync",
-       "_id": "plain:_local\/latlng"
+       "Direction": "plain:pull",
+       "Mode": "plain:one-shot"
       }'
-    ↓SetGlobal [mobile.components.UIDynamicAction-1589021059768]: 
+    ↓GetData [mobile.components.UIDynamicAction-1589021038984]: 
       beanData: |
         '{
-         "ionBean": "SetGlobalAction",
-         "Property": "plain:latlng",
-         "Value": "script:out.latlng"
+         "ionBean": "FullSyncGetAction",
+         "requestable": "plain:DeplacementMax.deplacementmax_fullsync",
+         "_id": "plain:_local\/latlng"
         }'
+      ↓SetGlobal [mobile.components.UIDynamicAction-1589021059768]: 
+        beanData: |
+          '{
+           "ionBean": "SetGlobalAction",
+           "Property": "plain:latlng",
+           "Value": "script:out.latlng"
+          }'
