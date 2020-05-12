@@ -65,6 +65,14 @@ title: Title for MonAdresse
                       - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
                       - MobileSmartSourceType: plain:Oui
                 ↓Event [mobile.components.UIControlEvent-1588951671957]: 
+                  ↓Error_Handler [mobile.components.UIActionErrorEvent-1589273778404]: 
+                    ↓Toast [mobile.components.UIDynamicAction-1589273787794]: 
+                      beanData: |
+                        '{
+                         "ionBean": "ToastAction",
+                         "message": "plain:Nou n''avons pas pu accéder à votre GPS. Vérifiez qu''il est bien activé et que vous avez autorisé cette application a y accéder.",
+                         "position": "plain:middle"
+                        }'
                   ↓GetCurrentGPS [mobile.components.UICustomAction-1588951682197]: 
                     actionValue: 
                       - xmlizable: 
@@ -78,9 +86,14 @@ title: Title for MonAdresse
                                 	                 x: position.coords.latitude,
                                                      y: position.coords.longitude
                                 	             });
+                                	           }, 
+                                	           (error) => {
+                                	                page.c8o.log.error(''[GetCurrentGPS] ''+ JSON.stringify(error))
+                                                    reject(error)
                                 	           })
                                 	    } else {
                                 	        resolve()
+                                            page.c8o.log.error(''[GetCurrentGPS] ''+ ''No geoloc object'');
                                 	    }
                             '
                     ↓CallSequence [mobile.components.UIDynamicAction-1589007825486]: 

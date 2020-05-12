@@ -134,7 +134,10 @@ tplProjectName: mobilebuilder_tpl_7_8_0
           	 		background-color: your color; 
           	*/
           }
-          '
+          
+          .text-input {
+          	border: solid 1px gray
+          }'
 ↓AppEvent [mobile.components.UIAppEvent-1589021019992]: 
   appEvent: onNetworkReachable
   ↓Error_Handler [mobile.components.UIActionErrorEvent-1589027416092]: 
