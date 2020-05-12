@@ -2,7 +2,7 @@
 ↓DeplacementMax [core.Project]: 
   comment: Convertigo Mobile builder Project
   corsOrigin: =Origin
-  version: 1.0
+  version: 1.0.1
   ↓deplacementmax_fullsync [connectors.FullSyncConnector]: 🗏 connectors/deplacementmax_fullsync.yaml
   ↓GoogleGeoCoding [connectors.HttpConnector]: 🗏 connectors/GoogleGeoCoding.yaml
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
