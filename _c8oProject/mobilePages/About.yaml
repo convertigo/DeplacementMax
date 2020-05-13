@@ -108,7 +108,7 @@ title: A propos...
                 textValue: 
                   - xmlizable: 
                     - ↑classname: com.twinsoft.convertigo.beans.mobile.components.MobileSmartSourceType
-                    - MobileSmartSourceType: plain:V1.0.1
+                    - MobileSmartSourceType: plain:V1.0.2
             ↓Paragraph1 [mobile.components.UIDynamicElement-1589019810328]: 
               beanData: '{"ionBean":"Paragraph"}'
               tagName: p
