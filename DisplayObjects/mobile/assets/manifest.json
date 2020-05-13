@@ -1,6 +1,6 @@
 {
-  "name": "PWA Application",
-  "short_name": "PWA App",
+  "name": "Déplacement MAX, une application pour mesurer vos déplacements au sein des 100 km autour de votre domicile.",
+  "short_name": "DMAX",
   "start_url": "../index.html",
   "display": "standalone",
   "icons": [{
